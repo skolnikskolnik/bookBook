@@ -1,0 +1,48 @@
+/* Homepage CSS */
+
+html
+{
+    /* Slack green - Rich request Zo */
+    background-color: #2EB67D;
+    color: white;
+    font-weight: 700;
+    padding:10px
+}
+
+
+.header {
+    color: white
+}
+
+h1
+
+{
+    color:white;
+    font-weight:800;
+    text-shadow: 2px 2px blue;
+}
+
+h4
+{
+    font-weight:700;
+}
+
+#book-banner
+{
+    height:120px;
+    width:100%;
+    border-radius: 10px;
+}
+
+#favicon
+{
+    width:40px;
+    padding-right:5px;
+}
+.nav-container {
+    font-weight: 800
+}
+
+.deleteBtn{
+    background-color: #868686
+}

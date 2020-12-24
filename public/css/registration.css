@@ -1,0 +1,90 @@
+/* Universal styling */
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/* Applies to the whole page */
+html {
+  /* Green background Rich ! from Zo =) */
+  background-color: #2eb67d;
+}
+
+/* Registration Heading */
+h1 {
+  color: white;
+  font-weight: 800;
+  text-shadow: 2px 2px #e01e5a;
+  text-align: center;
+}
+
+/* Forces container to have white background like dancing book below Zo*/
+.uk-navbar-container {
+  background-color: white !important;
+}
+
+/* Dancing book gif */
+#dancing-book {
+  height: 200px;
+}
+
+h2 {
+  color: white;
+  font-weight: 800;
+  text-shadow: 2px 2px #e01e5a;
+  text-align: center;
+}
+
+.uk-input {
+  border-radius: 10px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  top: 50%;
+}
+
+.uk-container {
+  text-align: center;
+}
+
+#bookBtn {
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+#bookBtn:hover {
+  background-color: lightgray;
+  transition: right 2s ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+#accountCreate {
+  color: white;
+  font-weight: 700;
+}
+
+.bookImg {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.login {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  box-shadow: 10px 5px 5px #e01e5a;
+}
+
+.color {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}

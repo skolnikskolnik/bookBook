@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Ui Kit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.15/dist/css/uikit.min.css" />
+  <!-- Home page CSS - Zo  -->
+  <link rel="stylesheet" href="../css/homepage.css">
+  <!-- Zo's Book Book favicon -->
+  <link rel="icon" href="../css/assets/images/favicon.png">
+  <!-- Julie A's Jquery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="./script/homepage.js"></script>
+  <title>Book Book | Team Four</title>
+</head>
+
+<body>
+  <!-- Adds responsive design for page - request for sizing fix Zo | if still doesn't work try uk-container-large instead of expand @ Julia A -->
+  <div class="uk-container uk-container-expand">
+    <!-- Page title Zo -->
+    <h1 class="uk-animation-slide-left">Book Book</h1>
+
+    <!-- NavBar start U-I Kit Zo - Do not touch!!! -->
+    <div class="uk-position-relative">
+
+      <!-- book-banner Zo -->
+      <img class="uk-animation-slide-top" id="book-banner" src="../css/assets/images/book-homepage.png"
+        alt="book-banner">
+      <div class="uk-position-top">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+          <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+              <li>
+                <p class="uk-active uk-container uk-padding">
+                  <img class="uk-animation-shake" id="favicon" src="../css/assets/images/favicon.png" alt="">My Account
+                </p>
+                <div class="uk-navbar-dropdown uk-padding-right">
+                  <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li class="uk-active "><a href="../html/library.html" uk-icon="icon: database">Book
+                        Inventory</a></li>
+                    <!-- Just incase we need it Zo -->
+                    <li class="uk-active target"><a href="../login" uk-icon="icon: sign-out">Sign Out</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Nav bar end Zo -->
+
+    <!-- Search slogan -->
+    <h4 class="uk-padding font-question" style="color:white">What book are you reading today <a
+        class="uk-animation-shake"><span class="firstName">Almonzo</span></a>? <img id="book-question"
+        src="../css/assets/images/giphy.gif" alt="book-result"></h4>
+
+    <!-- Search Bar Zo -->
+    <div class="uk-margin">
+      <form class="uk-search uk padding uk-search-default uk-width-2-2" id="searchForm">
+        <span style=" color:white; font-size:700;" uk-search-icon></span>
+        <!-- Search bar code Zo -->
+        <input style=" color:white;" class="uk-search-input" type="search" required>
+      </form>
+    </div>
+
+    <!-- Button sound Zo -->
+    <audio id="button-click" src="./public/css/assets/bgm/Mouse_click.mp3"></audio>
+
+    <!-- Search bar stuff end Zo-->
+    <h4 style="color:white" class="uk-padding uk-width-medium"> Book results:</h4>
+
+    <!-- Stock images - possible api section for books Zo -->
+    <div class="uk-flex uk-flex-center ">
+      <div class="uk-card uk-card uk-card-body results-images">
+        <a><img src="../css/assets/images/Book-example2.png" alt="book-result"></a>
+      </div>
+      <div class="uk-card uk-card uk-card-body uk-margin-left results-images">
+        <a><img src="../css/assets/images/Book-example3.jpg" alt="book-result"></a>
+      </div>
+      <div class="uk-card uk-card uk-card-body uk-margin-left results-images">
+        <a><img src="../css/assets/images/Book-example.jpg" alt="book-result"></a>
+      </div>
+      <div class="uk-card uk-card uk-card-body uk-margin-left results-images">
+        <a><img src="../css/assets/images/Book-example4.jpg" alt="book-result"></a>
+      </div>
+      <div class="uk-card uk-card uk-card-body uk-margin-left results-images">
+        <a><img src="../css/assets/images/Book-example5.jpg" alt="book-result"></a>
+      </div>
+    </div>
+
+    <!-- Seems shorter to me Julia to just say Available -->
+    <h4 style="color:white" class="uk-padding">Available books:</h4>
+
+    <!-- Stock images - possible recommnend api section for books Zo -->
+    <div class="uk-flex uk-flex-center ">
+      <div class="uk-card uk-card uk-card-body available-book">
+        <a><img src="../css/assets/images/Book-example2.png" alt="book-result"></a>
+      </div>
+      <div class="uk-card uk-card uk-card-body uk-margin-left available-book">
+        <a><img src="../css/assets/images/Book-example3.jpg" alt="book-result"></a>
+      </div>
+      <div class="uk-card uk-card uk-card-body uk-margin-left available-book">
+        <a><img src="../css/assets/images/Book-example.jpg" alt="book-result"></a>
+      </div>
+      <div class="uk-card uk-card uk-card-body uk-margin-left available-book">
+        <a><img src="../css/assets/images/Book-example4.jpg" alt="book-result"></a>
+      </div>
+      <div class="uk-card uk-card uk-card-body uk-margin-left available-book">
+        <a><img src="../css/assets/images/Book-example5.jpg" alt="book-result"></a>
+      </div>
+      <!-- <div class="uk-card uk-card uk-card-body uk-margin-left available-book">
+        <a><img src="../css/assets/images/Book-example5.jpg" alt="book-result"></a>
+      </div> -->
+    </div>
+
+
+    <!-- Footer animation Zo-->
+    <div class="uk-animation-toggle" tabindex="0">
+      <div class="uk-animation-shake">
+
+        <!-- Team footer-->
+        <footer id="footer">&#169; 2020 Team Four 😎, Project Two</footer>
+
+        <!-- Spacing -->
+        <br>
+
+      </div>
+    </div>
+
+  </div>
+</body>
+<!-- UI kit CSS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.15/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.15/dist/js/uikit-icons.min.js"></script>
+
+<!-- Zo's homepage javascript -->
+<script src="../script/homepage.js"></script>
+
+</html>

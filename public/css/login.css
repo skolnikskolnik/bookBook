@@ -1,0 +1,91 @@
+
+/* Applies to the whole page */
+html
+{
+    /* Green background Rich ! from Zo =) */
+    background-color: #2EB67D;
+    color:white;
+}
+
+h2
+{
+ color:white;
+ text-shadow: 2px 2px #36C5F0;
+ font-weight: 800;
+}
+
+/* Book Book slogin */
+#book-slogin
+{
+    color:white;
+}
+
+
+/* Client-input */
+#client-input
+{
+    text-align: center;
+
+}
+
+.uk-input 
+{
+    border-radius:10px;
+}
+
+.login-button
+{
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+/* Creat account section */
+#accountCreate
+{
+    text-align:center;
+    color: white;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+a:hover
+{
+    
+    text-shadow: 2px 2px blue;
+}
+
+/* reading gif */
+#reading-gif
+{
+    width:80px;
+    height:80px;
+    border:solid 2px;
+    border-radius: 10px;
+}
+
+#video-book
+{
+    text-align: center;
+    
+}
+
+footer
+{
+    text-align: center;
+    font-weight:500;
+}
+
+/* Glowing login button Zo  */
+
+@keyframes glowing {
+    0% { box-shadow: 0 0 -10px white; }
+    60% { box-shadow: 0 0 20px white; }
+    80% { box-shadow: 0 0 20px white; }
+    100% { box-shadow: 0 0 -10px white; }
+  }
+  
+  .button-glow 
+  {
+    animation: glowing 5000ms infinite;
+  }
+  

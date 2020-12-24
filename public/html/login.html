@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.16/dist/css/uikit.min.css" />
+    <!-- Zo's style sheet -->
+    <link rel="stylesheet" href="../css/login.css">
+    <!-- Zo's Book Book favicon -->
+    <link rel="icon" href="../css/assets/images/favicon.png" type="image/gif" sizes="32x32">
+    <title>Book Book | Team 4 </title>
+</head>
+
+<body>
+    <!-- Utilizing UI-kit container dynamic sizing -->
+    <div class="uk-container-expand">
+
+        <!-- Book title/gif section Zo -->
+        <h2 class="uk-align-right uk-padding uk-animation-kenburns">
+            Book Book <img id="reading-gif" src="../css/assets/images/reading -slogan-gif.gif" alt="book-gif"></h2>
+        <br><br>
+
+        <!-- Book Book slogin -->
+        <p id="book-slogin" class="uk-padding uk-animation-slide-right">Reading one book, at a time.</p>
+
+        <!-- Email section -->
+        <form id="client-input">
+            <div class="uk-margin">
+                <div class="uk-inline uk-width-medium">
+                    <!-- UI-kit icon user Zo -->
+                    <span class="uk-form-icon" uk-icon="icon: user"></span>
+                    <!-- Email input Zo -->
+                    <input class="uk-input email" type="text" placeholder="Email" required>
+                </div>
+            </div>
+
+            <!-- Password section -->
+            <div class="uk-margin"></div>
+            <div class="uk-inline uk-width-medium">
+                <!-- UI-kit icon lock Zo -->
+                <span class="uk-form-icon" uk-icon="icon: lock"></span>
+                <!--Password section-->
+                <input class="uk-input secret" type="password" placeholder="Password" required>
+            </div>
+
+            <!-- Spacing -->
+            <br>
+
+            <!-- Url link for homepage for Julie/David/Rich to implement for login button-->
+            <!-- ./homepage.html -->
+
+            <!-- Client login section choice -->
+            <button submit class="uk-button button-glow login-button uk-align-center uk-button-primary"
+                id="entry">Login</button>
+        </form>
+
+
+        <!-- Create an account section added link for Julie Horan's registration page -->
+        <p class="uk-animation-slide-left" id="accountCreate"><a style=color:white; href="/registration">Create an
+                account</a></p>
+
+        <!-- Login and Create account sound Zo -->
+        <audio id="mouse-click" src="../css/assets/bgm/Mouse_click.mp3"></audio>
+
+        <!-- Spacing -->
+        <br>
+
+        <!-- Stock video loop for Book Book -->
+        <div id="video-book">
+            <video width="70%" height="auto" playsinline autoplay muted loop>
+                <source src="../css/assets/bg-video/People-reading-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <!-- Book Book audio ;) -->
+            <audio autoplay loop>
+                <!-- <source src="./public/css/assets/bgm/BookBook_ost.mp3" type="audio/mpeg"> -->
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <!-- Spacing -->
+        <br>
+
+        <!-- Footer animation Zo-->
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-animation-shake">
+
+                <!-- Team footer-->
+                <footer id="footer">&#169; 2020 Team Four 😎, Project Two</footer>
+
+                <!-- Spacing -->
+                <br>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.16/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.16/dist/js/uikit-icons.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <!-- Zo's script file -->
+    <script src="../script/login.js"></script>
+
+</body>
+
+</html>
